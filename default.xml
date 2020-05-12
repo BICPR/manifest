@@ -798,4 +798,5 @@
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
 
+  <include name="snippets/bicpr.xml" />
 </manifest>

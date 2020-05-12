@@ -39,3 +39,4 @@
   
 <!-- System repos -->
   <project path="system/sepolicy" name="system_sepolicy" remote="bicpr" />
+</manifest>

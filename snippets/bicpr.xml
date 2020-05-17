@@ -34,6 +34,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bicpr" />
+  <project path="packages/apps/ThePicker" name="packages_apps_ThePicker" remote="bicpr" />
 
   <!-- System repos -->
   <project path="system/sepolicy" name="system_sepolicy" remote="bicpr" />

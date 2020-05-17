@@ -5,17 +5,8 @@
           fetch="https://github.com/BICPR"
           revision="ten" />
 
-
-<!-- Hardware -->
-  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="bicpr" />
-
-<!-- Frameworks -->
-  <project path="frameworks/av" name="frameworks_av" remote="bicpr" />
-  <project path="frameworks/base" name="frameworks_base" remote="bicpr" />
-  <project path="frameworks/native" name="frameworks_native" remote="bicpr" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="bicpr" />
-
   <!-- General repos -->
+  <project path="manifest" name="manifest" remote="bicpr" />
   <project path="build/make" name="build" remote="bicpr">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -25,18 +16,31 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="bicpr" />
-  <project path="manifest" name="manifest" remote="bicpr" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="bicpr" />
-  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="bicpr" />
   <project path="build/soong" name="build_soong" remote="bicpr" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <!-- Device -->
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="bicpr" />
 
-<!-- Packages -->
+  <!-- Hardware -->
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="bicpr" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" remote="bicpr" />
+  <project path="frameworks/base" name="frameworks_base" remote="bicpr" />
+  <project path="frameworks/native" name="frameworks_native" remote="bicpr" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="bicpr" />
+
+  <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bicpr" />
-  
-<!-- System repos -->
+  <project path="packages/apps/ThePicker" name="packages_apps_ThePicker" remote="bicpr" />
+
+  <!-- System repos -->
   <project path="system/sepolicy" name="system_sepolicy" remote="bicpr" />
+
+  <!-- Vendor -->
+  <project path="vendor/aosp" name="vendor_aosp" remote="bicpr" />
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="bicpr" />
+
 </manifest>

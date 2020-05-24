@@ -27,4 +27,4 @@ $ mka bacon -jX
 
 ### Submitting Patches ###
 
-Patches are always welcome!  You can always submit a pull requiest :)
+Patches are always welcome!  You can always submit a pull request :)

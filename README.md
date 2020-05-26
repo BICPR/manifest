@@ -1,6 +1,5 @@
 <img src="https://raw.githubusercontent.com/BICPR/manifest/bruh/bicpr.png" width="317px" height="119px" > 
-
-# BICPR🍒  #
+#
 
 ### Sync ###
 

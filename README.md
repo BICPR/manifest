@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://raw.githubusercontent.com/BICPR/manifest/ten/bicpr.png" width="800px" height="318.74px" > 
+</p>
+
 # BICPR🍒  #
 
 ### Sync ###

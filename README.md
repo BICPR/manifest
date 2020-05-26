@@ -1,6 +1,4 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/BICPR/manifest/bruh/bicpr.png" width="800px" height="318.74px" > 
-</p>
+<img src="https://raw.githubusercontent.com/BICPR/manifest/bruh/bicpr.png" width="317px" height="119px" > 
 
 # BICPR🍒  #
 

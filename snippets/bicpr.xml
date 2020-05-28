@@ -39,6 +39,9 @@
   <!-- System repos -->
   <project path="system/sepolicy" name="system_sepolicy" remote="bicpr" />
 
+  <!-- External repos -->
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="bicpr" />
+
   <!-- Vendor -->
   <project path="vendor/aosp" name="vendor_aosp" remote="bicpr" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="bicpr" />
